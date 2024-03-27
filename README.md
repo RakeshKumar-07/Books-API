@@ -15,6 +15,10 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
+### For Testing
+```
+python manage.py test
+```
 - login with superuser credentials at url http://127.0.0.1:8000/admin/
 - got to http://127.0.0.1:8000/api/books to use app
 
